@@ -1,0 +1,6 @@
+I love natural language processing
+Machine learning is amazing
+Deep learning is a subset of machine learning
+Neural networks are powerful tools
+Python is a popular programming language
+...
