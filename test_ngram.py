@@ -1,6 +1,5 @@
 import pickle
 
-# Load saved trigram model
 with open("trigram_model.pkl", "rb") as f:
     trigrams = pickle.load(f)
 
@@ -12,7 +11,6 @@ def predict_next(word1, word2, word3):
     else:
         return "❌ Pattern not found."
 
-# Run prediction loop
 print("🧠 Trigram Next Word Predictor")
 print("Enter a 3-word phrase from training data. Type '1' to exit.\n")
 
