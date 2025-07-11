@@ -33,3 +33,9 @@ A simple Python-based next word prediction system using **N-gram modeling** (big
 
    ```bash
    python train.py
+
+3. Test the model:
+
+   ```bash
+   python test.py
+   
