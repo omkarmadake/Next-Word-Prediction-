@@ -1,16 +1,16 @@
 # 🧠 Trigram-Based Next Word Prediction
 
-This project builds a simple next-word prediction system using *trigrams*, a specific type of *n-gram* where predictions are made based on the previous three words. The model is built using only Python standard libraries, making it lightweight and easy to run.
+This project builds a simple next-word prediction system using **trigrams**, a specific type of **n-gram** where predictions are made based on the previous three words. The model is built using only Python standard libraries, making it lightweight and easy to run.
 
 ---
 
 ## 📘 What is an N-Gram?
 
-An *n-gram* is a sequence of `n` consecutive words in a text.
+An **n-gram** is a sequence of `n` consecutive words in a text.
 
-- *Unigram (1-gram)* → `["the", "cat", "sat"]`
-- *Bigram (2-gram)* → `[("the", "cat"), ("cat", "sat")]`
-- *Trigram (3-gram)* → `[("the", "cat", "sat")]`
+- **Unigram (1-gram)** → `["the", "cat", "sat"]`
+- **Bigram (2-gram)** → `[("the", "cat"), ("cat", "sat")]`
+- **Trigram (3-gram)** → `[("the", "cat", "sat")]`
 
 In this project, we use **trigrams** to predict the next word after a 3-word input.
 
